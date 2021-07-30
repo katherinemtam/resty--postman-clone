@@ -6,7 +6,7 @@ const History = ({ id, search, method }) => (
     <article id={id}>
       <p id={id}>{method}</p>
       <p id={id}>{search}</p>
-    </article>)
+    </article>
   </>
 );
 
