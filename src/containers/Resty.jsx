@@ -66,9 +66,9 @@ export default class Resty extends Component {
         <Payload 
           payload={payload} 
         />
-        {/* <HistoryList
+        <HistoryList
           history={history}
-        /> */}
+        />
       </>
     );
   }
