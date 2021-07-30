@@ -18,7 +18,6 @@ exports[`HistoryList component renders HistoryList 1`] = `
           https://aztro.sameerkumar.website/?sign=pisces&day=today
         </p>
       </article>
-      )
     </li>
   </ul>
 </DocumentFragment>

@@ -6,6 +6,5 @@ exports[`History component renders History 1`] = `
     <p />
     <p />
   </article>
-  )
 </DocumentFragment>
 `;
