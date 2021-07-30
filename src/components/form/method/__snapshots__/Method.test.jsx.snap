@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Method component renders Method 1`] = `
+<DocumentFragment>
+  <div
+    class="Method"
+  >
+    <label
+      for="get"
+    >
+      GET
+    </label>
+    <input
+      id="get"
+      name="method"
+      type="radio"
+      value="GET"
+    />
+    <label
+      for="post"
+    >
+      POST
+    </label>
+    <input
+      id="post"
+      name="method"
+      type="radio"
+      value="POST"
+    />
+    <label
+      for="put"
+    >
+      PUT
+    </label>
+    <input
+      id="put"
+      name="method"
+      type="radio"
+      value="PUT"
+    />
+    <label
+      for="patch"
+    >
+      PATCH
+    </label>
+    <input
+      id="patch"
+      name="method"
+      type="radio"
+      value="PATCH"
+    />
+    <label
+      for="delete"
+    >
+      DELETE
+    </label>
+    <input
+      id="delete"
+      name="method"
+      type="radio"
+      value="DELETE"
+    />
+  </div>
+</DocumentFragment>
+`;

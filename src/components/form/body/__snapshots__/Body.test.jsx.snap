@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body component renders Body 1`] = `
+<DocumentFragment>
+  <label
+    for="body"
+  />
+  <textarea
+    id="body"
+    name="body"
+    placeholder="Raw JSON Body"
+  />
+</DocumentFragment>
+`;

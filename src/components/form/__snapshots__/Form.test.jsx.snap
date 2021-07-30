@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders App 1`] = `
+exports[`Form component renders Form 1`] = `
 <DocumentFragment>
   <form
     class="Form"
@@ -88,7 +88,5 @@ exports[`App component renders App 1`] = `
       placeholder="Raw JSON Body"
     />
   </form>
-  <div />
-  <ul />
 </DocumentFragment>
 `;
