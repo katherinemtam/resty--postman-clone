@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Payload = ({ payload }) => (
   <>
-    <div>
+    <div data-testid="payload">
       {payload}
     </div>
   </>
