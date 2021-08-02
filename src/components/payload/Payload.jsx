@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ReactJson from 'react-json-view';
 
-const Payload = ({ payload }) => (
-  <>
-    <div data-testid="payload">
-      {payload}
-    </div>
-  </>
-);
+const Payload = ({ payload }) => {
+  console.log(payload);
+  const json = JSON.parse(payload);
+  return (
+    <>
+      <div data-testid="payload">
+        <ReactJson src={json} displayDataTypes={false} />
+      </div>
+    </>
+  );
+};
 
 Payload.propTypes = {
   payload: PropTypes.string
