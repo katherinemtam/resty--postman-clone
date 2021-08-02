@@ -5,11 +5,6 @@ exports[`Method component renders Method 1`] = `
   <div
     class="Method"
   >
-    <label
-      for="get"
-    >
-      GET
-    </label>
     <input
       id="get"
       name="method"
@@ -17,9 +12,9 @@ exports[`Method component renders Method 1`] = `
       value="GET"
     />
     <label
-      for="post"
+      for="get"
     >
-      POST
+      GET
     </label>
     <input
       id="post"
@@ -28,9 +23,9 @@ exports[`Method component renders Method 1`] = `
       value="POST"
     />
     <label
-      for="put"
+      for="post"
     >
-      PUT
+      POST
     </label>
     <input
       id="put"
@@ -39,9 +34,9 @@ exports[`Method component renders Method 1`] = `
       value="PUT"
     />
     <label
-      for="patch"
+      for="put"
     >
-      PATCH
+      PUT
     </label>
     <input
       id="patch"
@@ -50,9 +45,9 @@ exports[`Method component renders Method 1`] = `
       value="PATCH"
     />
     <label
-      for="delete"
+      for="patch"
     >
-      DELETE
+      PATCH
     </label>
     <input
       id="delete"
@@ -60,6 +55,11 @@ exports[`Method component renders Method 1`] = `
       type="radio"
       value="DELETE"
     />
+    <label
+      for="delete"
+    >
+      DELETE
+    </label>
   </div>
 </DocumentFragment>
 `;

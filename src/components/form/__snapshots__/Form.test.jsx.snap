@@ -6,16 +6,20 @@ exports[`Form component renders Form 1`] = `
     class="Form"
   >
     <div>
-      <label
-        for="search"
-      />
-      <input
-        id="search"
-        name="search"
-        placeholder="URL"
-        type="search"
-        value=""
-      />
+      <section
+        class="Search"
+      >
+        <label
+          for="search"
+        />
+        <input
+          id="search"
+          name="search"
+          placeholder="URL"
+          type="search"
+          value=""
+        />
+      </section>
       <button>
         Send
       </button>
@@ -23,11 +27,6 @@ exports[`Form component renders Form 1`] = `
     <div
       class="Method"
     >
-      <label
-        for="get"
-      >
-        GET
-      </label>
       <input
         id="get"
         name="method"
@@ -35,9 +34,9 @@ exports[`Form component renders Form 1`] = `
         value="GET"
       />
       <label
-        for="post"
+        for="get"
       >
-        POST
+        GET
       </label>
       <input
         id="post"
@@ -46,9 +45,9 @@ exports[`Form component renders Form 1`] = `
         value="POST"
       />
       <label
-        for="put"
+        for="post"
       >
-        PUT
+        POST
       </label>
       <input
         id="put"
@@ -57,9 +56,9 @@ exports[`Form component renders Form 1`] = `
         value="PUT"
       />
       <label
-        for="patch"
+        for="put"
       >
-        PATCH
+        PUT
       </label>
       <input
         id="patch"
@@ -68,9 +67,9 @@ exports[`Form component renders Form 1`] = `
         value="PATCH"
       />
       <label
-        for="delete"
+        for="patch"
       >
-        DELETE
+        PATCH
       </label>
       <input
         id="delete"
@@ -78,6 +77,11 @@ exports[`Form component renders Form 1`] = `
         type="radio"
         value="DELETE"
       />
+      <label
+        for="delete"
+      >
+        DELETE
+      </label>
     </div>
     <label
       for="body"

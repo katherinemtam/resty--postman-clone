@@ -2,15 +2,19 @@
 
 exports[`Search component renders Search 1`] = `
 <DocumentFragment>
-  <label
-    for="search"
-  />
-  <input
-    id="search"
-    name="search"
-    placeholder="URL"
-    type="search"
-    value=""
-  />
+  <section
+    class="Search"
+  >
+    <label
+      for="search"
+    />
+    <input
+      id="search"
+      name="search"
+      placeholder="URL"
+      type="search"
+      value=""
+    />
+  </section>
 </DocumentFragment>
 `;

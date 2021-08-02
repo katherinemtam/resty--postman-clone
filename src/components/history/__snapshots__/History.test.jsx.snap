@@ -3,7 +3,7 @@
 exports[`History component renders History 1`] = `
 <DocumentFragment>
   <article>
-    <p />
+    <h4 />
     <p />
   </article>
 </DocumentFragment>
