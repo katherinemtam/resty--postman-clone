@@ -309,9 +309,14 @@ exports[`App component renders App 1`] = `
         </div>
       </div>
     </div>
-    <ul
+    <section
       class="HistoryList"
-    />
+    >
+      <h1>
+        HISTORY
+      </h1>
+      <ul />
+    </section>
   </section>
 </DocumentFragment>
 `;
