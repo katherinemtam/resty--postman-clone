@@ -1,0 +1,21 @@
+.HistoryList li {
+  background-color: #204060;
+  color:white;
+
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+}
+
+.HistoryList p, .HistoryList h4 {
+  margin: 5px;
+}
+
+.HistoryList h4 {
+  font-weight: bolder;
+}
+
+

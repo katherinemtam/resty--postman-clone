@@ -1,0 +1,10 @@
+.Payload {
+  border:#D3D3D3 1px solid;
+  background-color: white;
+  margin: 2em;
+  padding: 1em;
+  overflow: auto;
+
+  width: 80vh;
+  height: 50%;
+}

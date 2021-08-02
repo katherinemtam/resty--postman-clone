@@ -1,0 +1,11 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+
+  width: 80vh;
+}
+
+.Form div {
+  display: flex;
+  margin: 5px 0px;
+}
