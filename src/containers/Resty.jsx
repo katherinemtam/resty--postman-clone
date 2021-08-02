@@ -9,14 +9,14 @@ export default class Resty extends Component {
     search: '',
     method: '',
     body: '',
-    payload: '',
+    payload: '{ \"Hello\": \"I am bored. Please make a fetch!\"}',
     history: [],
   }
 
   componentDidMount() {
-    const exists = localStorage.getItem('HISTORY');
-    exists 
-      ? (this.setState({ history: JSON.parse(exists) }))
+    const historyExists = localStorage.getItem('HISTORY');
+    historyExists 
+      ? (this.setState({ history: JSON.parse(historyExists) }))
       : (localStorage.setItem('HISTORY', '[]')); 
   }
 
