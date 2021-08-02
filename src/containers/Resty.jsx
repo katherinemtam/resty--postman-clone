@@ -11,7 +11,7 @@ export default class Resty extends Component {
     search: '',
     method: '',
     body: '',
-    payload: '{ "Hello": "I am bored. Please make a fetch!"}',
+    payload: { 'Hello': 'I am bored. Please make a fetch!' },
     history: [],
   }
 
@@ -25,7 +25,9 @@ export default class Resty extends Component {
   async fetchAPI() {
     const { search, method, body } = this.state;
     
-    const payload = await fetchApi(search, method, body);
+    const res = await fetchApi(search, method, body);
+    const payload = JSON.parse(res);
+
     this.setState({ payload });
   }
 
@@ -77,7 +79,7 @@ export default class Resty extends Component {
 
   render() {
     const { search, method, body, payload, history } = this.state;
-
+    
     return (
       <>
         <Header />
