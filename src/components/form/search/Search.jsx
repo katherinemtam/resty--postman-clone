@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Search.css';
 
 const Search = ({ search, onChange }) => (
-  <>
+  <section className={styles.Search}>
     <label htmlFor="search"></label>
     <input
       id="search"
@@ -12,7 +13,7 @@ const Search = ({ search, onChange }) => (
       value={search}
       onChange={onChange}
     />
-  </>
+  </section>
 );
 
 Search.propTypes = {

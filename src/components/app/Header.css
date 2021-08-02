@@ -1,0 +1,12 @@
+.Header {
+  background-color: #204060;
+  color:white;
+  
+  display: flex;
+  align-items: center;
+  height: 4em;
+  padding: 2em;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}

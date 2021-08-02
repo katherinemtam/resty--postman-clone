@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const History = ({ id, search, method }) => (
   <>
     <article id={id}>
-      <p id={id}>{method}</p>
+      <h4 id={id}>{method}</h4>
       <p id={id}>{search}</p>
     </article>
   </>

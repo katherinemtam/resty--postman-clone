@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Header from '../components/app/Header';
 import Form from '../components/form/Form';
 import HistoryList from '../components/history/HistoryList';
 import Payload from '../components/payload/Payload';
 import { fetchApi } from '../services/resty.js';
+import styles from './Resty.css';
 
 export default class Resty extends Component {
   state = {
@@ -78,20 +80,25 @@ export default class Resty extends Component {
 
     return (
       <>
-        <Form
-          search={search}
-          method={method}
-          body={body}
-          onChange={this.handleChange}
-          onSubmit={this.handleSubmit}
-        />
-        <Payload 
-          payload={payload} 
-        />
-        <HistoryList
-          history={history}
-          onClick={this.handleClick}
-        />
+        <Header />
+        <section className={styles.Resty}>
+          <div>
+            <Form
+              search={search}
+              method={method}
+              body={body}
+              onChange={this.handleChange}
+              onSubmit={this.handleSubmit}
+            />
+            <Payload 
+              payload={payload} 
+            />
+          </div>
+          <HistoryList
+            history={history}
+            onClick={this.handleClick}
+          />
+        </section>
       </>
     );
   }

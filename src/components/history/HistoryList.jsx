@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import History from './History';
+import styles from './HistoryList.css';
 
 const HistoryList = ({ history, onClick }) => {
   const historyElements = history.map((eachHistory, index) => (
@@ -16,7 +17,7 @@ const HistoryList = ({ history, onClick }) => {
     </li>
   ));
 
-  return <ul>{historyElements}</ul>;
+  return <ul className={styles.HistoryList}>{historyElements}</ul>;
 };
 
 HistoryList.protoTypes = {

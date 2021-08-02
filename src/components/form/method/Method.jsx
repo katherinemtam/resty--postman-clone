@@ -4,7 +4,6 @@ import styles from './Method.css';
 
 const Method = ({ method, onChange }) => (
   <div className={styles.Method}>
-    <label htmlFor="get">GET</label>
     <input
       id="get"
       type="radio"
@@ -13,7 +12,8 @@ const Method = ({ method, onChange }) => (
       onChange={onChange}
       checked={method === 'GET'}
     />
-    <label htmlFor="post">POST</label>
+    <label htmlFor="get">GET</label>
+    
     <input
       id="post"
       type="radio"
@@ -22,7 +22,8 @@ const Method = ({ method, onChange }) => (
       onChange={onChange}
       checked={method === 'POST'}
     />
-    <label htmlFor="put">PUT</label>
+    <label htmlFor="post">POST</label>
+
     <input
       id="put"
       type="radio"
@@ -31,7 +32,8 @@ const Method = ({ method, onChange }) => (
       onChange={onChange}
       checked={method === 'PUT'}
     />
-    <label htmlFor="patch">PATCH</label>
+    <label htmlFor="put">PUT</label>
+
     <input
       id="patch"
       type="radio"
@@ -40,7 +42,8 @@ const Method = ({ method, onChange }) => (
       onChange={onChange}
       checked={method === 'PATCH'}
     />
-    <label htmlFor="delete">DELETE</label>
+    <label htmlFor="patch">PATCH</label>
+    
     <input
       id="delete"
       type="radio"
@@ -49,6 +52,7 @@ const Method = ({ method, onChange }) => (
       onChange={onChange}
       checked={method === 'DELETE'}
     />
+    <label htmlFor="delete">DELETE</label>
   </div>
 );
 

@@ -47,7 +47,4 @@ describe('Resty Container', () => {
       });
     expect(body.value).toBe('{hello: world}');
   });
-
-
-
 });
