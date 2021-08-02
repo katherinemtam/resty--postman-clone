@@ -11,7 +11,7 @@ export default class Resty extends Component {
     search: '',
     method: '',
     body: '',
-    payload: '{ \"Hello\": \"I am bored. Please make a fetch!\"}',
+    payload: '{ "Hello": "I am bored. Please make a fetch!"}',
     history: [],
   }
 
