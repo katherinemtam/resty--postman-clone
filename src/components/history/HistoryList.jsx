@@ -17,7 +17,21 @@ const HistoryList = ({ history, onClick }) => {
     </li>
   ));
 
-  return <ul className={styles.HistoryList}>{historyElements}</ul>;
+  if(history === []) {
+    return (
+      <section className={styles.HistoryList}>
+        <h1>HISTORY</h1>
+        <ul>Looks like you haven't fetched anything yet.</ul>
+      </section>
+    );
+  } else { 
+    return (
+      <section className={styles.HistoryList}>
+        <h1>HISTORY</h1>
+        <ul>{historyElements}</ul>
+      </section>
+    );
+  }
 };
 
 HistoryList.protoTypes = {

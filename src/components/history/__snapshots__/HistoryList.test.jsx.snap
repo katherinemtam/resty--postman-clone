@@ -2,25 +2,30 @@
 
 exports[`HistoryList component renders HistoryList 1`] = `
 <DocumentFragment>
-  <ul
+  <section
     class="HistoryList"
   >
-    <li>
-      <article
-        id="https://aztro.sameerkumar.website/?sign=pisces&day=todayPOSTundefined"
-      >
-        <h4
+    <h1>
+      HISTORY
+    </h1>
+    <ul>
+      <li>
+        <article
           id="https://aztro.sameerkumar.website/?sign=pisces&day=todayPOSTundefined"
         >
-          POST
-        </h4>
-        <p
-          id="https://aztro.sameerkumar.website/?sign=pisces&day=todayPOSTundefined"
-        >
-          https://aztro.sameerkumar.website/?sign=pisces&day=today
-        </p>
-      </article>
-    </li>
-  </ul>
+          <h4
+            id="https://aztro.sameerkumar.website/?sign=pisces&day=todayPOSTundefined"
+          >
+            POST
+          </h4>
+          <p
+            id="https://aztro.sameerkumar.website/?sign=pisces&day=todayPOSTundefined"
+          >
+            https://aztro.sameerkumar.website/?sign=pisces&day=today
+          </p>
+        </article>
+      </li>
+    </ul>
+  </section>
 </DocumentFragment>
 `;

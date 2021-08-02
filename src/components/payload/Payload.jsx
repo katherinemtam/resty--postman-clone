@@ -12,7 +12,7 @@ const Payload = ({ payload }) =>  (
 );
 
 Payload.propTypes = {
-  payload: PropTypes.string
+  payload: PropTypes.object
 };
 
 export default Payload;
